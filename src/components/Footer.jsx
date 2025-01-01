@@ -116,7 +116,7 @@ const Footer = () => {
       </div>
       <div className="text-center py-4 ">
         <p>
-          @copyrights developed by{" "}
+          &#169;copyrights developed by{" "}
           <span className="text-hoverColor"> Mohit Rai</span> || All rights
           reserved {year}
         </p>
