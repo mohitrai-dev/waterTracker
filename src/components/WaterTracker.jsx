@@ -61,7 +61,7 @@ const WaterTracker = () => {
         {Array.from({ length: totalCups }).map((_, cupIndex) => (
           <div
             key={cupIndex}
-            className={`cup-small w-12 h-16 bg-white mx-1 cursor-pointer rounded-md flex justify-center items-center text-xs border border-1px transition-all duration-300 
+            className={`cup-small w-12 h-16 bg-[text-[#144fc6]] mx-1 cursor-pointer rounded-md flex justify-center items-center text-xs border border-1px transition-all duration-300 
             ${
               cupIndex < filledCups
                 ? "bg-[#6ab3f8] text-black"

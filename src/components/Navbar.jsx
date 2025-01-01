@@ -122,6 +122,15 @@ const Navbar = () => {
             Home
           </Link>
           <Link
+            to="watertracker"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-hoverColor transition-all cursor-pointer"
+          >
+            Water Tracker
+          </Link>
+          <Link
             to="about"
             spy={true}
             smooth={true}
