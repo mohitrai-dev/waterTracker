@@ -127,6 +127,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
           >
             Water Tracker
           </Link>
